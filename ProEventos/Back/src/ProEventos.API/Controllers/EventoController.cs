@@ -9,19 +9,38 @@ namespace ProEventos.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    
+
     public class EventoController : ControllerBase
     {
-       
+
         public EventoController()
         {
-            
+
         }
 
         [HttpGet]
         public string Get()
         {
-           return "value";
+            return "Exemplo de get";
         }
+
+        [HttpPost]
+        public string Post()
+        {
+            return "Exemplo post";
+        }
+
+        [HttpPut("{id}")]
+        public string Put(int id)
+        {
+            return $"Exemplo put com id {id}";
+        }
+
+        [HttpDelete("{id}")]
+        public string Delete(int id)
+        {
+            return $"Exemplo delete com id {id}";
+        }
+
     }
 }
