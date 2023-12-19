@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ProEventos.API.Models;
 
 namespace ProEventos.API.Controllers
 {
@@ -13,15 +14,44 @@ namespace ProEventos.API.Controllers
     public class EventoController : ControllerBase
     {
 
+        public IEnumerable<Evento> _evento = new Evento[]
+            {
+               new Evento() {
+                EventoId = 1,
+                Tema = "Angular 11 e .NET 5",
+                Local = "Curitiba",
+                Lote = "1",
+                QtdePessoas = 250,
+                DataEvento = DateTime.Now.AddDays(2).ToString(),
+                ImageURL = "foto.com.br/123/1.png"
+               },
+
+               new Evento() {
+                EventoId = 2,
+                Tema = "Angular e sua evolução",
+                Local = "Curitiba",
+                Lote = "2",
+                QtdePessoas = 450,
+                DataEvento = DateTime.Now.AddDays(2).ToString(),
+                ImageURL = "foto.com.br/123/2.png"
+               }
+            };
+
         public EventoController()
         {
 
         }
 
         [HttpGet]
-        public string Get()
+        public IEnumerable<Evento> Get()
         {
-            return "Exemplo de get";
+            return _evento;
+        }
+
+        [HttpGet("{id}")]
+        public IEnumerable<Evento> GetById(int id)
+        {
+            return _evento.Where(evento => evento.EventoId == id);
         }
 
         [HttpPost]
