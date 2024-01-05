@@ -9,6 +9,50 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C29F1303-E15
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEventos.API", "Back\src\ProEventos.API\ProEventos.API.csproj", "{7C2E1269-5972-4060-89F0-E7F25798F4A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{0158DC9F-E994-4927-A3F5-887E0B6A9860}"
+	ProjectSection(SolutionItems) = preProject
+		Front\package-lock.json = Front\package-lock.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProEventos-App", "ProEventos-App", "{F0C0F72D-A629-4AF8-8FF3-ACC5ECE2BC68}"
+	ProjectSection(SolutionItems) = preProject
+		Front\ProEventos-App\.editorconfig = Front\ProEventos-App\.editorconfig
+		Front\ProEventos-App\.gitignore = Front\ProEventos-App\.gitignore
+		Front\ProEventos-App\angular.json = Front\ProEventos-App\angular.json
+		Front\ProEventos-App\package-lock.json = Front\ProEventos-App\package-lock.json
+		Front\ProEventos-App\package.json = Front\ProEventos-App\package.json
+		Front\ProEventos-App\README.md = Front\ProEventos-App\README.md
+		Front\ProEventos-App\server.ts = Front\ProEventos-App\server.ts
+		Front\ProEventos-App\tsconfig.app.json = Front\ProEventos-App\tsconfig.app.json
+		Front\ProEventos-App\tsconfig.json = Front\ProEventos-App\tsconfig.json
+		Front\ProEventos-App\tsconfig.spec.json = Front\ProEventos-App\tsconfig.spec.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF2B0A53-41A6-4EE0-9C26-EA76A5ECDF39}"
+	ProjectSection(SolutionItems) = preProject
+		Front\ProEventos-App\src\favicon.ico = Front\ProEventos-App\src\favicon.ico
+		Front\ProEventos-App\src\index.html = Front\ProEventos-App\src\index.html
+		Front\ProEventos-App\src\main.server.ts = Front\ProEventos-App\src\main.server.ts
+		Front\ProEventos-App\src\main.ts = Front\ProEventos-App\src\main.ts
+		Front\ProEventos-App\src\styles.scss = Front\ProEventos-App\src\styles.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{32C65C55-0A6C-4DE1-8FEF-2C6FD8FD77EC}"
+	ProjectSection(SolutionItems) = preProject
+		Front\ProEventos-App\src\app\app.component.html = Front\ProEventos-App\src\app\app.component.html
+		Front\ProEventos-App\src\app\app.component.scss = Front\ProEventos-App\src\app\app.component.scss
+		Front\ProEventos-App\src\app\app.component.spec.ts = Front\ProEventos-App\src\app\app.component.spec.ts
+		Front\ProEventos-App\src\app\app.component.ts = Front\ProEventos-App\src\app\app.component.ts
+		Front\ProEventos-App\src\app\app.config.server.ts = Front\ProEventos-App\src\app\app.config.server.ts
+		Front\ProEventos-App\src\app\app.config.ts = Front\ProEventos-App\src\app\app.config.ts
+		Front\ProEventos-App\src\app\app.routes.ts = Front\ProEventos-App\src\app\app.routes.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{9A43B7C6-F4BA-4301-8828-14B377393183}"
+	ProjectSection(SolutionItems) = preProject
+		Front\ProEventos-App\src\assets\.gitkeep = Front\ProEventos-App\src\assets\.gitkeep
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +70,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C29F1303-E155-4FAA-A463-EA0196A728B6} = {81B0C93B-B67C-4C26-BFD1-3C27E703A1C9}
 		{7C2E1269-5972-4060-89F0-E7F25798F4A2} = {C29F1303-E155-4FAA-A463-EA0196A728B6}
+		{F0C0F72D-A629-4AF8-8FF3-ACC5ECE2BC68} = {0158DC9F-E994-4927-A3F5-887E0B6A9860}
+		{DF2B0A53-41A6-4EE0-9C26-EA76A5ECDF39} = {F0C0F72D-A629-4AF8-8FF3-ACC5ECE2BC68}
+		{32C65C55-0A6C-4DE1-8FEF-2C6FD8FD77EC} = {DF2B0A53-41A6-4EE0-9C26-EA76A5ECDF39}
+		{9A43B7C6-F4BA-4301-8828-14B377393183} = {DF2B0A53-41A6-4EE0-9C26-EA76A5ECDF39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C8F7D24-8053-4AB9-8041-15167270F69B}
