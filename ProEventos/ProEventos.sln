@@ -46,6 +46,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{32C65C55-0A6
 		Front\ProEventos-App\src\app\app.config.server.ts = Front\ProEventos-App\src\app\app.config.server.ts
 		Front\ProEventos-App\src\app\app.config.ts = Front\ProEventos-App\src\app\app.config.ts
 		Front\ProEventos-App\src\app\app.routes.ts = Front\ProEventos-App\src\app\app.routes.ts
+		Front\ProEventos-App\src\app\eventos\eventos.component.html = Front\ProEventos-App\src\app\eventos\eventos.component.html
+		Front\ProEventos-App\src\app\eventos\eventos.component.scss = Front\ProEventos-App\src\app\eventos\eventos.component.scss
+		Front\ProEventos-App\src\app\eventos\eventos.component.spec.ts = Front\ProEventos-App\src\app\eventos\eventos.component.spec.ts
+		Front\ProEventos-App\src\app\eventos\eventos.component.ts = Front\ProEventos-App\src\app\eventos\eventos.component.ts
+		Front\ProEventos-App\src\app\palestrantes\palestrantes.component.html = Front\ProEventos-App\src\app\palestrantes\palestrantes.component.html
+		Front\ProEventos-App\src\app\palestrantes\palestrantes.component.scss = Front\ProEventos-App\src\app\palestrantes\palestrantes.component.scss
+		Front\ProEventos-App\src\app\palestrantes\palestrantes.component.spec.ts = Front\ProEventos-App\src\app\palestrantes\palestrantes.component.spec.ts
+		Front\ProEventos-App\src\app\palestrantes\palestrantes.component.ts = Front\ProEventos-App\src\app\palestrantes\palestrantes.component.ts
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{9A43B7C6-F4BA-4301-8828-14B377393183}"
